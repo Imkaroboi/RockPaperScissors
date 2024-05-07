@@ -1,14 +1,16 @@
 function rock() {
-    let playerChoice = "rock"
-    if (playerChoice === computer) {
-        alert("hi")
+    let playerChoice = 0.333333;
+    let computerChoice = Math.random();
+    if (playerChoice >= computerChoice) {
+        alert("you lose")
     }
+
 };
 function paper() {
-
+    let playerChoice = 0.666666
 };
 function scissors() {
-
+    let playerChoice = 0.999999
 };
 let computer;
 function choice() {
@@ -19,3 +21,5 @@ if (computerChoice < 0.3333333) {
     let computer = "paper"
 } else {let computer = "scissors"}
 }
+/* rock is 0.333333 or less, paper is 0.333333 - 0.666666, 
+and scissors is anything else or > 0.666666*/
