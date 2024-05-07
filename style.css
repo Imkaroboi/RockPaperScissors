@@ -9,7 +9,7 @@ body {
     align-items: center;
 }
 .items {
-    margin-top: 200px;
+    margin-top: 500px;
 }
 .container {
     display: flex;
@@ -31,4 +31,9 @@ body {
     font-size: 2rem;
     color: white;
     font-weight: bold;
+}
+@media (max-width: 1450px) {
+    .items {
+        margin-top: 200px;
+    }
 }
