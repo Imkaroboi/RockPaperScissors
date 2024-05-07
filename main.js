@@ -2,14 +2,17 @@ function rock() {
     let playerChoice = 0.333333;
     let computerChoice = Math.random();
     if (playerChoice >= computerChoice) {
-        alert("you lose")
+        alert("tie")
+    } else if (computerChoice > 0.333333 && computerChoice < 0.666666) {
+        alert("You Win")
+        document.getElementById("yourScore").innerHTML = "Your Score - 1"
     }
 
 };
 function paper() {
     let playerChoice = 0.666666
 };
-function scissors() {
+function  scissors() {
     let playerChoice = 0.999999
 };
 let computer;
