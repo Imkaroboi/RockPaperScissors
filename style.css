@@ -32,6 +32,12 @@ body {
     color: white;
     font-weight: bold;
 }
+.text {
+    color: white;
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-left: 33%;
+}
 @media (max-width: 1450px) {
     .items {
         margin-top: 200px;

@@ -1,3 +1,5 @@
+let playerScore = 0;
+let computerScore = 0;
 function rock() {
     let playerChoice = 0.333333;
     let computerChoice = Math.random();
@@ -5,7 +7,12 @@ function rock() {
         alert("tie")
     } else if (computerChoice > 0.333333 && computerChoice < 0.666666) {
         alert("You Win")
-        document.getElementById("yourScore").innerHTML = "Your Score - 1"
+         playerScore++
+        document.getElementById("yourScore").innerHTML = `Your Score - ${playerScore}`
+    } else {
+        document.getElementById("text").innerHTML = "Computer played paper, You lose!"
+        computerScore++
+        document.getElementById("compScore").innerHTML = `Computer Score - ${computerScore}`
     }
 
 };
