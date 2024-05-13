@@ -9,7 +9,7 @@ body {
     align-items: center;
 }
 .items {
-    margin-top: 500px;
+    margin-top: 10%;
 }
 .container {
     display: flex;
@@ -32,11 +32,11 @@ body {
     color: white;
     font-weight: bold;
 }
-.text {
+#text {
     color: white;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: bolder;
-    margin-left: 33%;
+   text-align: center;
 }
 @media (max-width: 1450px) {
     .items {
